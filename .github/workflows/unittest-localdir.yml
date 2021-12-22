@@ -1,3 +1,4 @@
+# Trigger
 name: 'Grid.ai Run Local Dir'
 on:
   push:
