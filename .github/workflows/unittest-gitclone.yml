@@ -1,6 +1,6 @@
-# Trigger
 name: 'Grid.ai Run Git Clone'
 on:
+  workflow_call:
   push:
     paths:
       - action.yml

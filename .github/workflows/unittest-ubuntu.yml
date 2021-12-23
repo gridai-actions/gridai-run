@@ -1,6 +1,6 @@
-# Trigger
 name: 'Run Ubuntu'
 on:
+  workflow_call:
   pull_request:
     paths:
       - action.yml

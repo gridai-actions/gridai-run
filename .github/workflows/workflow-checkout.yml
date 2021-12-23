@@ -1,4 +1,3 @@
-# Trigger
 name: 'Workflow Git Checkout'
 on:
   workflow_call:

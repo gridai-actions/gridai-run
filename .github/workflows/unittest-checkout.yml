@@ -1,6 +1,6 @@
-# Trigger
 name: 'Grid.ai Run Checkout'
 on:
+  workflow_call:
   push:
     paths:
       - action.yml
