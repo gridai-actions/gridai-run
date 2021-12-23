@@ -1,5 +1,6 @@
 name: 'Run Mac'
 on:
+  workflow_call:
   pull_request:
     paths:
       - action.yml
